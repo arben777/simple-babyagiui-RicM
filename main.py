@@ -272,13 +272,13 @@ def main():
             st.markdown("## 🏁 What's your Objective:")
             OBJECTIVE = st.text_input(
                 "Alternative Example:\n" + "\n".join(f"• {objective}" for objective in investor_prompts['objectives']),
-                value="Introduce a cutting-edge, experiential tech hub within The Grove, bringing together startups, innovators, and shoppers.",
+                value="Establish a tech hub in The Grove for startups and innovators.",
             )
 
             st.markdown("## 🥇 Give Wizard an Initial Task Towards Objecive:")
             first_task = st.text_input(
                 "Alternative Example:\n" + "\n".join(f"• {task}" for task in investor_prompts['tasks']),
-                value="Engage with leading tech companies and startups for a collaborative workspace initiative within the shopping environment.",
+                value="Contact and Collaborate with leading tech firms for a workspace in The Grove.",
             )
 
             max_iterations = st.number_input(

@@ -3,10 +3,10 @@
 investor_specific_prompts = {
     "Rick Caruso": {
         "objectives": [
-            "Expand the brand's reach by transforming three historical landmarks into luxury shopping destinations while preserving their heritage."
+            "Convert three historical landmarks into luxury shopping spots, preserving their heritage."
         ],
         "tasks": [
-            "Select historical sites, conduct preservation studies, and liaise with local authorities for development permissions."
+            "Select landmarks, study preservation needs, and get development permissions."
         ]
     },
     "InvestorB": {
