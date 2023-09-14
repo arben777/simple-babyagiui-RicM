@@ -1,7 +1,7 @@
 # config.py
 # This is a dictionary where keys are investor names and values are lists of example prompts for that investor.
 investor_specific_prompts = {
-    "Tilman Fertitta": {
+    "Rick Caruso": {
         "objectives": [
             "Expand the brand's reach by transforming three historical landmarks into luxury shopping destinations while preserving their heritage."
         ],
